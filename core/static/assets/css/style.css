@@ -1786,6 +1786,7 @@ header .header_inner .right-side .header-avatar {
   display: none;
 }
 
+
 .dropdown_scrollbar {
   max-height: 370px;
 }
@@ -1843,9 +1844,11 @@ header .uk-dropdown {
   header .header_inner .left-side .triger {
     display: block;
   }
+
   header .header_inner .left-side .header_search {
     display: none;
   }
+
   header .header_inner .right-side {
     position: absolute;
     right: 20px;
@@ -2535,4 +2538,16 @@ header .uk-dropdown {
     position: absolute;
   }
 }
- 
+
+
+/* My created styles*/
+
+.password-control{
+  position: absolute;
+  top: 11px;
+  right: 6px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../../images/view.svg);
+}
